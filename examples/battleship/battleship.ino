@@ -17,7 +17,7 @@
  * Two player Battleship game with audio sound effects. Load the wav files onto
  * an SD card on each machine in a folder called "/wav"
  */
-#define IS_PLAYER_1 1
+#define IS_PLAYER_1 true
 //Basic game engine code
 #include <TwoPlayerGame.h>
 

@@ -332,7 +332,7 @@ bool BShip_Results::processResults(void) {
         bottomMessage("I sank enemy %s!",Ships[shipDestroyed].name);
         Device.pixels.setPixelColor(shipDestroyed, 50,0,0);
         Device.pixels.show();
-        playWave("goodbye2.wav");
+        playWave("goodbye.wav");
       }
       if(subType==WIN_RESULTS){
         bottomMessage("Hallelujah! I win");
